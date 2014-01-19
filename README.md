@@ -51,4 +51,4 @@ To enable this technology, follow the steps:
 * __418__: I'm the tayyip
 * __500__: YOUR FAULT
 * __502__: ARAF
-* __406__: We know best
+* __406__: THE WE KNOW BEST
