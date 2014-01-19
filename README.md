@@ -17,6 +17,11 @@ TYYP is an application level networking protocol for government controlled infor
 * Allows you to jail anyone by faking the records.
 * Reminds you of Tayyip and the limitlessness of the evil.
 
+## Milestones
+
+* unSSL; implementing unSSL feature which enables to decrypt all encrypted packages and internet traffic ongoing. With this update, all kinds of user sensitive data and instant message traffic can be observed.
+
+
 
 ## Get started
 
@@ -34,6 +39,7 @@ To enable this technology, follow the steps:
                                        +----------+       +-----------+       |
                                        |  Host B  | ----- |  Router B | ------+
                                        +----------+       +-----------+
+
 ~~~
 1. Host A makes a TYYP request, request headers and body are parsed by the ISP and logged before any action is taken.
 1. ISP resolves the IP address of the destination host. It's often asked whether there aren't any design flaws since we address no DNS issues. The DNS is not required for this system to work, but we allow clients to make DNS requests not the break the existing software, such as legacy browsers.
