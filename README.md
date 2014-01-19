@@ -47,6 +47,7 @@ To enable this technology, follow the steps:
 
 * __200__: HALAL
 * __403__: HARAM
+* __404__: DEMOCRACY
 * __418__: I'm the tayyip
 * __500__: MEKRUH
 * __502__: ARAF
