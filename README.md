@@ -49,8 +49,10 @@ To enable this technology, follow the steps:
 ## Status codes
 
 * __200__: HALAL
+* __301__: REDIRECT TO GOD
 * __400__: MAKRUH
 * __403__: HARAM
+* __404__: JUSTICE NOT FOUND
 * __418__: I'm the tayyip
 * __500__: YOUR FAULT
 * __502__: ARAF
