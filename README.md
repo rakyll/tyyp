@@ -49,8 +49,11 @@ To enable this technology, follow the steps:
 ## Status codes
 
 * __200__: HALAL
+* __301__: REDIRECT_TO_TAYYIP
+* __304__: TAYYIP_NOT_MODIFIED
 * __400__: MAKRUH
 * __403__: HARAM
+* __404__: TAYYIP_NOT_FOUND
 * __407__: FATWA_AUTHORIZATION_REQUIRED
 * __418__: IM_THE_TAYYIP
 * __500__: YOUR_FAULT
