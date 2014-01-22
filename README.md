@@ -53,6 +53,7 @@ To enable this technology, follow the steps:
 * __403__: HARAM
 * __407__: FATWA_AUTHORIZATION_REQUIRED
 * __410__: DAVOS
+* __415__: LIBERAL_MEDIA
 * __418__: IM_THE_TAYYIP
 * __500__: YOUR_FAULT
 * __502__: ARAF
