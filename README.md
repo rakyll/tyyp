@@ -56,6 +56,7 @@ To enable this technology, follow the steps:
 * __418__: IM_THE_TAYYIP
 * __500__: YOUR_FAULT
 * __502__: ARAF
+* __503__: ONE_MINUTES
 
 ## License
 
