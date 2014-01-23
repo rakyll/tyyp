@@ -54,6 +54,7 @@ To enable this technology, follow the steps:
 * __407__: FATWA_AUTHORIZATION_REQUIRED
 * __410__: DAVOS
 * __418__: IM_THE_TAYYIP
+* __429__: YOU_ARE_ASKING_TOO_MUCH
 * __500__: YOUR_FAULT
 * __502__: ARAF
 
