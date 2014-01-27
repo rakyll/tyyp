@@ -49,6 +49,7 @@ To enable this technology, follow the steps:
 ## Status codes
 
 * __200__: HALAL
+* __202__: INSALLAH
 * __400__: MAKRUH
 * __403__: HARAM
 * __407__: FATWA_AUTHORIZATION_REQUIRED
