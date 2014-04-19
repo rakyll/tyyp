@@ -1,4 +1,4 @@
-# tyyp://
+# tyyp:// and [ttt](http://goo.gl/DJkoGs) subdomain
 
 ![A demonstrator shows love and support for TYYP during one of the recent protests in Istanbul](http://i.imgur.com/E38iED0.jpg) ![Analytics](https://ga-beacon.appspot.com/UA-46881978-1/tyyp?pixel) ![TYYP in the making...](http://i.imgur.com/vN6U1MG.jpg)
 
