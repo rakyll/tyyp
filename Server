@@ -1,0 +1,49 @@
+#!/usr/bin/python
+from BaseHTTPServer import BaseHTTPRequestHandler, HTTPServer
+import httplib
+import sys
+import os
+
+class TYYPRequestHandler(BaseHTTPRequestHandler):
+
+#handle GET command
+def do_GET(self):
+
+try:
+if self.path.endswith('.html'):
+domain = self.headers.get("host", "")
+conn = httplib.HTTPConnection(domain)
+
+conn.request("GET " , self.path)
+
+f = conn.getresponse() #TYYP connection established here
+
+#send code 200 response
+self.send_response(200) #HALAL
+
+#send header first
+self.send_header('Content-type','text-html')
+self.end_headers()
+
+#send file content to client
+self.wfile.write(f.read())
+self.log_message("%s", f)
+f.close()
+else
+self.send_response(403) #HARAM
+return
+except IOError:
+self.send_error(418, 'I'm the tayyip')
+
+def run():
+print('TYYP server is starting...')
+
+#ip and port of servr
+#by default TYYP server port is 80
+server_address = ('127.0.0.1', 80)
+httpd = HTTPServer(server_address, TYYPHTTPRequestHandler)
+print('TYYP server is running...')
+httpd.serve_forever()
+
+if __name__ == '__main__':
+run()
